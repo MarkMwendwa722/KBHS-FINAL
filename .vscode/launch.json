@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/client/src/pages/npm run",
+            "cwd": "${workspaceFolder}/client/src/pages",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run"
+            ],
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
